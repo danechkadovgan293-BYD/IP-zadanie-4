@@ -206,3 +206,43 @@ header{
         width: 100%;
     }
 }
+
+.header_button {
+    transition: background-color .3s ease,
+                color .3s ease,
+                transform .3s ease,
+                box-shadow .3s ease;
+}
+.header_button:hover {
+    background-color: #222;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .22);
+}
+
+.services_item {
+    transition: transform .3s ease;
+}
+.services_item:hover {
+    transform: translateY(-6px);
+}
+.services_img {
+    transition: transform .3s ease;
+}
+.services_item:hover .services_img {
+    transform: scale(1.15);
+}
+
+.talent_item {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.talent_item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .12);
+}
+.talent_img {
+    transition: transform .3s ease;
+}
+.talent_item:hover .talent_img {
+    transform: scale(1.08);
+}
